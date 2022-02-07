@@ -33,6 +33,7 @@ section {
   background-color: #a45ee5;
 }
 
+
 .mainSec {
   width: 50%;
   height: 400px;
@@ -90,4 +91,29 @@ input {
 
 .hidden {
   display: none;
+}
+@media (max-width: 414px) {
+  header {
+    line-height: 14vh;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  .mainSec {
+    width: 90%;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 737px) {
+  header {
+    line-height: 24vh;
+  }
+  section {
+    height: 110vh;
+  }
+  .mainSec {
+    margin-top: 10px;
+    width: 70%;
+    line-height: 60%;
+  }
 }
