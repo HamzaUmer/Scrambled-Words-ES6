@@ -102,6 +102,9 @@ input {
   .mainSec {
     width: 90%;
   }
+    h3 {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 414px) and (max-width: 737px) {
